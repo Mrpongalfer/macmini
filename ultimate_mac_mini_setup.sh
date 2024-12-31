@@ -24,7 +24,7 @@ trap 'error_handler $LINENO' ERR
 # Function to update the script dynamically
 update_script() {
   echo "Checking for script updates..."
-  curl -o ultimate_mac_mini_setup.sh https://raw.githubusercontent.com/YourRepo/YourScript/master/ultimate_mac_mini_setup.sh
+  curl -o ultimate_mac_mini_setup.sh https://raw.githubusercontent.com/Mrpongalfer/macmini/refs/heads/main/ultimate_mac_mini_setup.sh
   chmod +x ultimate_mac_mini_setup.sh
   exec ./ultimate_mac_mini_setup.sh
 }
